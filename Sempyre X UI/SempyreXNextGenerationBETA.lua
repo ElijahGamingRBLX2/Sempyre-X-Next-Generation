@@ -20,7 +20,7 @@ consoleclear = rconsoleclear
 consolesettitle = rconsolesettitle
 
 function identifyexecutor()
-    return "Sempyre X Next Generation BETA"
+    return "Sempyre X Next Generation"
 end
 -- [[ Init Script ]] --
 setfpscap(0)
@@ -41,7 +41,7 @@ getgenv().require = function(x)
 end
 wait(1)
 
-warn("Sempyre X Next Generation BETA")
+warn("Sempyre X Next Generation")
 
 getgenv().sempyrexload = true
 
@@ -55,7 +55,7 @@ _G.is_sempyrexnextgeneration_loaded = true
 
 
 game.StarterGui:SetCore("SendNotification", {
-	Title = "Sempyre X Next Generation BETA"; -- the title (ofc)
+	Title = "Sempyre X Next Generation"; -- the title (ofc)
 	Text = "Sempyre X Has Loaded"; -- what the text says (ofc)
 	Icon = "https://cdn.discordapp.com/attachments/1245398119357874318/1247109413039378432/IMG_0334.png?ex=665ed4a6&is=665d8326&hm=9fb2c6f240cc263985f4ad90f16e1a73daba990620661f30e1f93939899f269d&"; -- the image if u want. 
 	Duration = 5; -- how long the notification should in secounds
@@ -97,7 +97,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.19491525, 0, 0, 0)
 TextLabel.Size = UDim2.new(0, 215, 0, 28)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Sempyre X | Next Generation (BETA)"
+TextLabel.Text = "Sempyre X Next Generation BETA"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 14.000
 
@@ -108,7 +108,7 @@ TextBox.BorderSizePixel = 0
 TextBox.Position = UDim2.new(0, 0, 0.125560537, 0)
 TextBox.Size = UDim2.new(0, 354, 0, 141)
 TextBox.Font = Enum.Font.SourceSans
-TextBox.Text = "Welcome To Sempyre X Next Generation (BETA)"
+TextBox.Text = "Sempyre X Next Generation"
 TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextBox.TextSize = 10.000
 TextBox.TextWrapped = true
@@ -196,24 +196,4 @@ local function TFBEZRK_fake_script() -- BritishX.LocalScript
 	frame.Selectable = true
 end
 coroutine.wrap(TFBEZRK_fake_script)()
-
-function identifyexecutor()
-    return "Sempyre X Next Generation Beta"
-end
-
-function writefile()
-    print("file not implemented")
-end
-
-function readfile()
-    print("file not implemented")
-end
-
-function appendfile()
-    print("file not implemented")
-end
-
-function isfile()
-    print("file not implemented")
-end
 framework.init();
